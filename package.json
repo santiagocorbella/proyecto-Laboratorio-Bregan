@@ -1,0 +1,21 @@
+
+{ 
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
+{
+   "scripts": {
+    "build-sass": "node-sass --include-path scss sass/index.scss css/translated.css"
+   }
+}       
+
+
+
+  
+
+
+
+
+
+
