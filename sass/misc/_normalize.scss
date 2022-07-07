@@ -1,0 +1,57 @@
+/*MISC*/
+/*NORMALIZE*/
+a {
+    list-style: none;
+    text-decoration: none;
+    color:rgb(141, 5, 134);
+    line-height: 1.6;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe); 
+    display:inline-block;
+    justify-content:center;
+}
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+}        
+img {
+    border-top:solid 5px black;
+    border-right:solid 10px black ;
+    border-bottom:solid 5px black;
+    border-left: solid 10px black;
+}    
+img {
+    @include flex(flex-direction)   
+}
+body {
+    display:block;
+    grid-template-rows:min-content 10fr;
+    min-height: 1000vh;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+}        
+html {
+    font-size: 62,5%;
+}          
+table {
+    display:inline-block;
+    justify-content:right;
+    font-size: 20px;
+    color: blue;
+}
+section span {
+    font-size: 40px;
+    color:rgb(141, 5, 134);
+    font-style: italic;
+}      
+li {
+    justify-content:end;
+}              
+
+
+
+
+ 
+   
+
+
+      

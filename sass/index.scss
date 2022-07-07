@@ -1,6 +1,9 @@
 /* EXTERNOS */
 /* MISC */
-@import './misc/animations.scss';
+@import './misc/mixins';
+@import './misc/normalize';
+@import './misc/animations';
 /* PARTIALS */
-@import './partials/header.scss';
-@import './partials/footer.scss';
+@import './partials/header';
+@import './partials/footer';
+

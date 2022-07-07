@@ -1,19 +1,21 @@
+/*INDEX.CSS*/
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/
 a {
     list-style: none;
     text-decoration: none;
-    color:rgb(17, 16, 17);
+    color:rgb(141, 5, 134);
     line-height: 1.6;
-    background-color: rgb(236, 232, 232);
+    background: linear-gradient(to right, #1c92d2, #f2fcfe); 
     display:inline-block;
     justify-content:center;
-    background: linear-gradient(to right, #1c92d2, #f2fcfe)
-}   
+}
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/
 h1 {
     color: black;    
     text-align: center;
-    text-decoration: underline;
-    line-height: 1.0;
-}    
+    text-decoration: underline; 
+}
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/   
 h2 {
     color: darkblue;
     text-align: center;
@@ -21,18 +23,19 @@ h2 {
     font-style:italic;
     line-height: 4.0;        
 }    
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/       
 h3 {
     color: rgb(15, 15, 15);
     text-align: center;
     line-height: 1.6;
-}    
+}
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/    
 section span {
     font-size: 40px;
     color:rgb(141, 5, 134);
-    text-decoration-line: underline;
     font-style: italic;
-    background: linear-gradient(to right, #1c92d2, #f2fcfe);
 }
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/   
 h4 {
     margin: 10px;
     padding: 10px;
@@ -40,6 +43,7 @@ h4 {
     font-style: italic;
     font-size: 20px;   
 }
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/   
 h5 {
     color:rgb(49, 49, 49) ;
     text-align: center;
@@ -48,38 +52,45 @@ h5 {
     font-size: 30px;
     line-height: 1.0;   
 }
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/  
 p {
     color: rgb(27, 27, 27);
     text-align: center;
     line-height: 1.0;
     font-style: italic;
     transform: scale(1.1,1.1);
-}    
+}
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/    
 article {
     text-align:center;
 }
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/
 img {
-    height:auto;
-    width:30%;
     border-top:solid 5px black;
     border-right:solid 10px black ;
     border-bottom:solid 5px black;
-    border-left: solid 10px black;
-}     
+    border-left: solid 10px black;    
+}
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/    
 section {
     display: block;
     flex-direction:column;
     justify-content: center;
 }
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/
 ul {
     list-style-type: none;
     display:flex;
     justify-content: flex-end;
 }
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/
 table {
     display:inline-block;
     justify-content:right;
-}    
+    font-size: 20px;
+    color: blue;
+}
+/*MIGRO A ARCHIVO ANIMATIONS.SCSS*/  
 @media screen and (max-width: 480px) {
     footer {
         color:darkblue;
@@ -88,57 +99,56 @@ table {
         flex-direction: column;
         justify-content: center;
     }
-    /*FOOTER*/
+    /*MIGRÓ A ARCHIVO FOOTER.SCSS*/
     footer {
-        color:inherit
+        justify-content: center; 
+        color:darkblue;
     }      
 }
-.grid-layout {
-    display:grid;
-    grid-template-columns:10px 20px;
-    grid-template-rows: 20px 10px;
-    gap: 5px;
-    transform: rotatez(-180deg);
-}    
+/* MIGRÓ A ARCHIVO ANIMATIONS.SCSS*/   
 .grid-item {
+    gap:5px;
     background-color:rgb(13, 13, 14);
-}    
+}
+ /* MIGRÓ A ARCHIVO ANIMATIONS.SCSS*/      
 .grid-area {
     display: grid;
     grid-template-columns: 5vw 5vw 5vw;
     grid-template-areas:
     "nav header header"
-    /* HEADER */
-}       
+}    
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/       
 header {
-    background-color: rgb(97, 185, 243);
-    grid-area: header;
-}
+    grid-area:auto }
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/ 
 html {
     font-size: 62,5%;
-}   
+}
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/   
 body {
     display:block;
     grid-template-rows:min-content 10fr;
     min-height: 1000vh;
-    background: linear-gradient(to right, #1c92d2, #f2fcfe);        
-}        
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+}            
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/       
 h6 {
     color:rgb(141, 5, 134);
     font-style:unset;
     font-size: 15px;
     text-decoration: underline;
     transform:translate(50px, 200px);
-}    
+}
+/*MIGRÓ A ARCHIVO HEADER.SCSS*/       
 div {
     color:rgb(12, 12, 12);
     text-align: center;
     transform: scale(2,2);
 }
-/*ANIMATIONS*/
+/* MIGRÓ A ARCHIVO ANIMATIONS.SCSS*/
 .animated {
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: rgb(141, 5, 134); 
     width: 5px;
     height: 5px;
     animation-name: slide;
@@ -147,11 +157,27 @@ div {
     animation: slide 5s infinite cubic-bezier(0.19,);
     transition:all 3s linear;
 }
+/* MIGRÓ A ARCHIVO ANIMATIONS.SCSS*/
 .animated:hover {
     width: 10px;
     height: 10px;
     transition: all;
-}      
+}
+/* MIGRÓ A ARCHIVO NORMALIZE.SCSS*/
+li {
+    justify-content: end;
+}              
+
+
+
+
+
+
+
+
+
+    
+
 
 
 

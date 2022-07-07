@@ -1,0 +1,49 @@
+/*MISC*/
+/*ANIMATIONS*/
+.animated {
+    margin: 0 auto;
+    background-color: rgb(141, 5, 134); 
+    width: 5px;
+    height: 5px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation: slide 5s infinite cubic-bezier(0.19,);
+    transition:all 3s linear;
+}
+.animated:hover {
+    width: 10px;
+    height: 10px;
+    transition: all;
+}
+.grid-item {
+    gap:5px;
+    background-color:rgb(13, 13, 14);
+}  
+.grid-area {
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-areas:
+    "nav header header"
+}    
+@media screen and (max-width: 480px) {
+} footer {
+    color:darkblue;
+    font-size: 20px;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    
+    
+    
+    
+
+
+
+        
+
+
+
+
